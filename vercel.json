@@ -1,0 +1,218 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/quick-start",
+      "destination": "/introduction/quickstart"
+    },
+    {
+      "source": "/sign-up-sign-in",
+      "destination": "/introduction/signup-signin"
+    },
+    {
+      "source": "/docker-compose",
+      "destination": "/self-hosting/docker-compose"
+    },
+    {
+      "source": "/kubernetes",
+      "destination": "/self-hosting/kubernetes"
+    },
+    {
+      "source": "/instance-admin",
+      "destination": "/self-hosting/instance-admin"
+    },
+    {
+      "source": "/reset-password",
+      "destination": "/self-hosting/reset-password"
+    },
+    {
+      "source": "/workspaces",
+      "destination": "/core-concepts/workspaces"
+    },
+    {
+      "source": "/projects",
+      "destination": "/core-concepts/projects"
+    },
+    {
+      "source": "/issues",
+      "destination": "/core-concepts/issues"
+    },
+    {
+      "source": "/cycles",
+      "destination": "/core-concepts/cycles"
+    },
+    {
+      "source": "/modules",
+      "destination": "/core-concepts/modules"
+    },
+    {
+      "source": "/views",
+      "destination": "/core-concepts/views"
+    },
+    {
+      "source": "/pages",
+      "destination": "/core-concepts/pages"
+    },
+    {
+      "source": "/analytics",
+      "destination": "/core-concepts/analytics"
+    },
+    {
+      "source": "/deploy",
+      "destination": "/core-concepts/deploy"
+    },
+    {
+      "source": "/power-k",
+      "destination": "/core-concepts/power-k"
+    },
+    {
+      "source": "/integrations/about",
+      "destination": "/integrations/about"
+    },
+    {
+      "source": "/integrations/github",
+      "destination": "/integrations/github"
+    },
+    {
+      "source": "/integrations/slack",
+      "destination": "/integrations/slack"
+    },
+    {
+      "source": "/importers/github-imp",
+      "destination": "/importers/github"
+    },
+    {
+      "source": "/importers/jira-imp",
+      "destination": "/importers/jira"
+    },
+    {
+      "source": "/webhooks/introduction",
+      "destination": "/webhooks/intro-webhooks"
+    },
+    {
+      "source": "/apis/introduction",
+      "destination": "/api-reference/introduction"
+    },
+    {
+      "source": "/apis/project",
+      "destination": "/api-reference/project/overview"
+    },
+    {
+      "source": "/apis/state",
+      "destination": "/api-reference/state/overview"
+    },
+    {
+      "source": "/apis/label",
+      "destination": "/api-reference/label/overview"
+    },
+    {
+      "source": "/apis/links",
+      "destination": "/api-reference/links/overview"
+    },
+    {
+      "source": "/apis/issue",
+      "destination": "/api-reference/issue/overview"
+    },
+    {
+      "source": "/apis/issue-activity",
+      "destination": "/api-reference/issue-activity/overview"
+    },
+    {
+      "source": "/apis/issue-comment",
+      "destination": "/api-reference/issue-comment/overview"
+    },
+    {
+      "source": "/apis/module",
+      "destination": "/api-reference/module/overview"
+    },
+    {
+      "source": "/apis/module-issue",
+      "destination": "/api-reference/module-issue/overview"
+    },
+    {
+      "source": "/apis/cycle",
+      "destination": "/api-reference/cycle/overview"
+    },
+    {
+      "source": "/apis/cycle-issue",
+      "destination": "/api-reference/cycle-issue/overview"
+    },
+    {
+      "source": "/apis/inbox-issue",
+      "destination": "/api-reference/inbox-issue/overview"
+    },
+    {
+      "source": "/youtrack-one/self-host/manage/prime-cli",
+      "destination": "/youtrack-one/manage/prime-cli"
+    },
+    {
+      "source": "/youtrack-one/self-host/manage/prime-client",
+      "destination": "/youtrack-one/manage/prime-client"
+    },
+    {
+      "source": "/youtrack-one/self-host/authentication/custom-sso",
+      "destination": "/youtrack-one/governance/authentication/custom-sso"
+    },
+    {
+      "source": "/youtrack-one/self-host/authentication/workspaces-and-teams",
+      "destination": "/youtrack-one/governance/authentication/workspaces-and-teams"
+    },
+    {
+      "source": "/youtrack-one/governance/authentication/workspaces-and-teams",
+      "destination": "/youtrack-one/governance/workspaces-and-teams"
+    },
+    {
+      "source": "/youtrack-one/self-host/methods/one-command",
+      "destination": "/youtrack-one/self-host/methods/docker"
+    },
+    {
+      "source": "/youtrack-one/self-host/methods/docker",
+      "destination": "/self-hosting/methods/docker-compose"
+    },
+    {
+      "source": "/youtrack-one/self-host/methods/kubernetes",
+      "destination": "/self-hosting/methods/kubernetes"
+    },
+    {
+      "source": "/youtrack-one/self-host/overview",
+      "destination": "/self-hosting/overview"
+    },
+    {
+      "source": "/youtrack-one/introduction",
+      "destination": "/self-hosting/overview"
+    },
+    {
+      "source": "/youtrack-one/manage/prime-cli",
+      "destination": "/self-hosting/manage/prime-cli"
+    },
+    {
+      "source": "/youtrack-one/manage/prime-client",
+      "destination": "/workspaces-and-users/upgrade-plan"
+    },
+    {
+      "source": "/youtrack-one/governance/authentication/custom-sso",
+      "destination": "/self-hosting/govern/authentication"
+    },
+    {
+      "source": "/self-hosting/:path*",
+      "destination": "https://developers.getyoutrack.io/self-hosting/:path*"
+    },
+    {
+      "source": "/api-reference/:path*",
+      "destination": "https://developers.getyoutrack.io/api-reference/:path*"
+    },
+    {
+      "source": "/webhooks/:path*",
+      "destination": "https://developers.getyoutrack.io/webhooks/:path*"
+    },
+    {
+      "source": "/youtrack-one/governance/workspaces-and-teams",
+      "destination": "https://developers.getyoutrack.io/youtrack-one/governance/workspaces-and-teams"
+    },
+    {
+      "source": "/introduction/home",
+      "destination": "/"
+    }
+  ]
+}

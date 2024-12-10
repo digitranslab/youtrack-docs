@@ -1,0 +1,147 @@
+---
+title: Issue types
+hide_title: true
+---
+
+import Tags from '@site/src/components/Tags';
+
+<div className="tag-wrapper">
+ <h1>Add, configure and control your issue types</h1>
+<Tags 
+  tags={[ 
+    { name: "Pro", additionalClass: "pro" }
+  ]} 
+ />
+</div>
+
+Issue Types unlock a whole new way of adding, editing, and moving work forward in Youtrack. The default issue type called `Issue` is great for starting with Youtrack, but as you advance in your project management journey, you find the need for names and properties unique to the type of work you are doing.
+
+For example, your Marketing team may need an issue type called `Content` with the properties, `Channel`, `SEO done?`, and `Reviewer` — properties that aren't available on the default Issues. Your Engineering team, on the other hand, may want an issue type called `Bugs` with the properties `Version` and `Environment` to have more upfront info per bug reported.
+
+Issue Types make these and infinite other use cases possible.
+
+## Create issue types
+
+:::warning 
+The Issue Types feature cannot be disabled once enabled for a Youtrack project.
+:::
+
+> **Role**: Project Admins
+
+1. Click the … icon next to your project name on the sidebar and click **Settings**.
+2. Select **Issue Types** on the right pane.
+3. Click the **Enable** button to start creating issue types for your project.
+![Enable issue type](https://media.docs.getyoutrack.io/issues/enable-issue-types.webp#center)
+4. The default type is called `Issue`. Click the **Add Issue Type** button to create a new issue type.
+![Add issue type](https://media.docs.getyoutrack.io/issues/add-issue-type.webp#center)
+5. In the **Create issue type** modal, type name, and description, and choose a background color and an icon to represent the issue type. Click the **Create issue type** button.
+![Create issue type](https://media.docs.getyoutrack.io/issues/create-issue-type.webp#center)
+6. Switch on the toggle button to allow users to select the issue type when creating issues and sub-issues.
+![Activate issue type](https://media.docs.getyoutrack.io/issues/activate-issue-type.webp#center)
+
+### Examples of issue types
+
+- *IT development teams*   
+`Bug` `Improvement` `Epic` `Story`
+
+
+- *IT support teams*  
+`Incident` `Change` `Service request` `New feature`
+
+- *Product management*  
+`Product launches` `User research` `Feature development` `Market analysis`
+
+- *Production units (automobile)*  
+`Production planning`, `Material procurement`, `Quality control`, `Inventory management`
+
+- *Design agencies*   
+`Revision requests` `Design drafting` `Client presentation` `Quality assurance`
+
+- *NGOs*  
+`Grant writing` `Volunteer coordination` `Beneficiary management`
+
+## Add custom properties
+> **Role**: Project Admins
+
+Adding custom properties to the default issue type Issue and other newly created issue types is possible.
+
+1. Under the issue type, click **Add New Property** to create custom fields.
+![Add new property](https://media.docs.getyoutrack.io/issues/add-new-property.webp#center)
+2. Specify values for **Title**, **Description** and **Property type** of the new property. 
+  ![Property details](https://media.docs.getyoutrack.io/issues/property-details.webp#center)
+3. Select the **Mandatory property** checkbox if it's a required field. Select the **Active** checkbox to make the property visible in issues. 
+4. Click **Create** to add the property to the issue type. 
+
+:::warning
+Before you delete properties, switch off the **Active** toggle button to avoid data loss.
+:::
+
+### Property types
+
+Here's a list of all the property types and attributes that Youtrack provides for creating custom fields:
+
+| Property&nbsp;type | Attributes | Notes|
+| --------------| ------------------- |---- |
+| **Text** | Single line, Paragraph, Read-only | The **Read-only** attribute cannot be marked as mandatory. Enter text in the Read only data box for this option.|
+| **Number** | Default value | An optional default value can be given to this property type.|
+| **Dropdown** | Single select, Multi select, Add options | Specify the values for the dropdown under **Add options**. |
+| **Boolean** | True/False | Default value is false. This attribute cannot be marked as mandatory. |
+| **Date** | Date Format | Consistent date format across all properties. | 
+| **Member&nbsp;picker** | Single Select, Multi select | Displays a list of all project members. |                  
+
+
+### Examples of custom properties
+
+- *Product launch*  
+`Launch date` `Geography` `Budget` `Approval status` `Stakeholder`
+
+- *Bug*  
+`Affected version` `Resolved version` `Environment` `Steps to reproduce` `Approval status` `Customer impact`
+
+- *Final design approval*  
+`Final design files` `Approval checklist` `Client approval date` `Responsible person`
+
+## Use issue types
+
+Once the project Admin sets up the issue types any project member can use them when creating issues or sub-issues.
+
+- In the **Create new issue** modal, the user can choose the desired issue type from the list at the top left corner. By default, the issue type `Issue` is selected displaying both system-defined and custom properties.
+- Changing the issue type will update the modal to display the relevant properties for that type.
+- The system ensures that all properties marked as mandatory are filled before creating the issue.
+![Use issue types](https://media.docs.getyoutrack.io/issues/use-issue-type.webp#center)
+
+When viewing issues, the issue type is displayed with an icon near the title for easy identification. Any custom properties added will also appear in the list of properties, and changes to these values are tracked in the issue's activity trail.
+
+## Switch issue types
+
+You can easily switch the issue's type at any time. Just follow these steps:
+
+1. Open the issue you’d like to update.
+2. Hover over to the right of the issue ID and click **Switch issue type**. Alternatively, you can click **Edit** from the issue's ellipsis (•••) menu to open the **Update issue** modal directly.
+  ![Switch issue type](https://media.docs.getyoutrack.io/issues/switch-issue-type.webp#center)
+3. Choose the new issue type from the dropdown next to your project name.
+    ![Update issue type](https://media.docs.getyoutrack.io/issues/update-issue-type.webp#center)
+4. Click **Update** to save your changes.
+
+## Bulk update issue types
+
+You can change the issue types for several issues at once. Here’s how:
+
+1. Switch to the **Spreadsheet** layout in the Issues page. 
+2. Select the issues you want to update.
+3. At the bottom of your screen, open the **Issue type** dropdown and pick the new issue type.
+    ![Bulk update issue types](https://media.docs.getyoutrack.io/issues/bulk-update-issue-types.webp#center)
+4. Click **Update** to apply the changes.
+
+## Disable issue types
+
+You can temporarily pause the creation of new issues for a specific issue type without affecting existing ones. 
+
+1. Head to the **Issue types** screen in your project's settings.
+2. Toggle off the switch next to the issue type you want to disable.
+    ![Disable issue types](https://media.docs.getyoutrack.io/issues/disable-issue-types.webp#center)
+
+
+
+
+
